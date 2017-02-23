@@ -1,0 +1,10 @@
+package school;
+
+public class main {
+
+	public static void main(String[] args) {
+		Subject period1 = new Subject("english");
+		System.out.println(period1.name);
+	}
+
+}

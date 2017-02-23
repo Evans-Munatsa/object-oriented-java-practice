@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item value="Local Terminal" key="terminalLabel"/>
+		<section name="SettingsPanelControl">
+			<section name="SSH Terminal">
+				<item value="evansmunatsa" key="lastHost"/>
+				<list key="hosts">
+					<item value="evansmunatsa|ssh.keep_alive:300:ip.port:22:ip.host:evansmunatsa:savePassword:false:encoding:null:timeout:0:saveUser:false"/>
+				</list>
+			</section>
+			<section name="Local Terminal">
+				<item value="UTF-8" key="encoding"/>
+			</section>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,43 @@
+package school;
+
+public class Teacher extends Subject {
+  private String teacherName = "";
+  private boolean presence = true;
+  private int students;
+  
+  
+  
+  public Teacher(String subjectName, String time, int roomNumber, int session, String teacherName, boolean presence, int students) {
+	  super(subjectName, time, roomNumber, session);
+	  this.teacherName = teacherName;
+	  this.presence = presence;
+	  this.students = students;
+  }
+  
+
+
+  public void setTeacherName(String teacherName){
+		this.teacherName = teacherName;
+	}
+  
+  public void setPresence(boolean presence){
+		this.presence = presence;
+	}
+  
+  public void setStudents(int students) {
+	  this.students = students;
+  }
+  
+  public String getTeacherName(){
+	    System.out.println("TEACHER: " + this.teacherName);
+		return this.teacherName;
+	}
+  
+  public boolean getPresence(){
+		return this.presence;
+	}
+  
+  public int getStudents() {
+	  return this.students;
+  }
+}

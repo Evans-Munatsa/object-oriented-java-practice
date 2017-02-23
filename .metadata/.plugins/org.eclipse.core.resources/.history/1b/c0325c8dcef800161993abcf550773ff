@@ -1,0 +1,35 @@
+package oop;
+
+public class Vehicle {
+  public String name = "";
+  public String color = "";
+  public String model = "";
+  public String company = "";
+  
+  public Vehicle() {}
+  
+  //constructor
+  public Vehicle(String name, String color, String model, String company) {
+    this.name = name;
+    this.color = color;
+    this.model = model;
+    this.company = company;
+  }
+  
+  //functions
+  public void getName(String name) {
+	  return this.name;
+  }
+  
+  public void getColor(String color) {
+	  return this.color;
+  }
+  
+  public void getModel(String model) {
+	  return this.model;
+  }
+  
+  public void getCompany(String company) {
+	  return this.company;
+  }
+}

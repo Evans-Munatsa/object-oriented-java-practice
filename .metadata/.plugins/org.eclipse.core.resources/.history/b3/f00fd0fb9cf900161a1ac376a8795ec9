@@ -1,0 +1,58 @@
+/**
+ * 
+ */
+package school;
+
+/**
+ * @author evansmunatsa
+ *
+ */
+public class Subject {
+	private String subjectName = "";
+	private String time = "";
+	private int roomNumber;
+	private int session;
+	
+	public Subject() {}
+	
+	public Subject(String name, String time, int roomNumber, int sessions) {
+		this.subjectName = name;
+		this.time = time;
+		this.roomNumber = roomNumber;
+		this.session = session;
+	}
+	
+	//setter methods
+	public void setSubjectName(String subjectName){
+		this.subjectName = subjectName;
+	}
+	
+	public void setTime(String time){
+		this.time = time;
+	}
+	
+	public void setRoomNumber(int roomNumber){
+		this.roomNumber = roomNumber;
+	}
+	
+	public void setSession(int session){
+		this.session = session;
+	}
+	
+	//getter methods
+	public String getSubjectName(){
+		return this.subjectName;
+	}
+	
+	public String getTime(){
+		return this.time;
+	}
+	
+	public int getRoomNumber(){
+		return this.roomNumber;
+	}
+	
+	public int getSession(){
+		return this.session;
+	}
+}

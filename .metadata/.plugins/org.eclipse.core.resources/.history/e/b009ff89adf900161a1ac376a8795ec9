@@ -1,0 +1,26 @@
+package school;
+
+public class Student extends Subject {
+  public String studentName = "";
+  public String grade = "";
+  public boolean absent = false;
+ 
+  public Student(String subjectName, String time, int roomNumber, int sessions, String studentName, String grade, boolean absent ) {
+	  this.studentName = studentName;
+	  this.grade = grade;
+	  this.absent = absent;
+  }
+  
+  
+  public void setStudentName(String studentName){
+		this.studentName = studentName;
+	}
+  
+  public void setGrade(String grade){
+		this.grade = grade;
+	}
+  
+  public void setAbsent(boolean absent){
+		this.absent = absent;
+	}
+}

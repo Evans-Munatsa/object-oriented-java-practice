@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package school;
+
+/**
+ * @author evansmunatsa
+ *
+ */
+public class Subject {
+	public String name = "";
+	public String time = "";
+	public String roomNumber = "";
+	public String sessions = "";
+}

@@ -1,0 +1,14 @@
+package school;
+
+public class Teacher extends Subject {
+  public String teacher = "";
+  public String gender = "";
+  public boolean presence;
+  
+  
+  public Teacher() {}
+  
+  public Teacher() {
+	  
+  }
+}

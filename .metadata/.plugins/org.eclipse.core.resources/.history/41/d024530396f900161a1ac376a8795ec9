@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package school;
+
+/**
+ * @author evansmunatsa
+ *
+ */
+public class Subject {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

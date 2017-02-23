@@ -1,0 +1,14 @@
+package school;
+
+public class main {
+
+	public static void main(String[] args) {
+		Subject period1 = new Subject();
+		System.out.println(period1.name);
+		
+		Subject period2 = new Subject("English", "11:00", 10, 2);
+		System.out.println(period2.name);
+		System.out.println(period2.time);
+	}
+
+}

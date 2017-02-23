@@ -1,0 +1,12 @@
+package school;
+
+public class main {
+
+	public static void main(String[] args) {
+		Subject car1 = new Subject("Ford Mustang GT");
+		System.out.println(car1.name);
+		
+
+	}
+
+}

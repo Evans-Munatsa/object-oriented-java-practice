@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package school;
+
+/**
+ * @author evansmunatsa
+ *
+ */
+public class Subject {
+	public String name = "";
+	public String time = "";
+	public String roomNumber = "";
+	public String sessions = "";
+	
+	public Subject() {}
+	
+	public Subject(String name, String time, String roomNumber, String sessions) {
+		this.name = name;
+		this.time = time;
+		this.roomNumber = roomNumber;
+		this.sessions = sessions;
+	}
+}

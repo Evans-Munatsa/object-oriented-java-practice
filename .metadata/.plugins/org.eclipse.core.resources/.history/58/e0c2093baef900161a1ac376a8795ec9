@@ -1,0 +1,24 @@
+package school;
+
+import school.Teacher;
+
+public class main {
+
+	public static void main(String[] args) {
+//		Subject period1 = new Subject();
+//		System.out.println(period1.getSubjectName());
+//		period1.setSubjectName("Maths");
+//		System.out.println(period1.getSubjectName());
+//		
+//		Subject period2 = new Subject("English", "11:00", 10, 2);
+//		System.out.println(period2.getSubjectName());
+//		System.out.println(period2.getRoomNumber());
+		
+		Teacher period1 = new Teacher("Subject: Maths", "Time: 10:10", 6, 3, "Teacher: Mr Evans Munatsa", true, 20);
+		System.out.println(period1.getTeacherName());
+		
+		Student student1 = new Student("Maths", "10:10", 6, 3, "Student: Miriam Munatsa", "12B", true);
+		System.out.println(student1.getStudentName());
+	}
+
+}
